@@ -68,6 +68,8 @@ On the destination machine, add a **Media Source** for each camera:
 | Camera 2 | `rist://@0.0.0.0:62202?buffer=20`   |
 | Camera 3 | `rist://@0.0.0.0:62203?buffer=20`   |
 
+<img width="752" height="634" alt="image" src="https://github.com/user-attachments/assets/23f461e1-bec6-4d51-aae8-a72718beca52" />
+
 ## Configuration reference
 
 | Key | Description | Default |
