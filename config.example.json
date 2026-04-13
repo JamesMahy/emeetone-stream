@@ -1,0 +1,24 @@
+{
+  "client_uuid": "YOUR-UUID-HERE",
+  "cameras": [
+    { "ip": "192.168.1.100", "name": "Camera 1", "rist_port": 62201 },
+    { "ip": "192.168.1.101", "name": "Camera 2", "rist_port": 62202 },
+    { "ip": "192.168.1.102", "name": "Camera 3", "rist_port": 62203 }
+  ],
+  "destination_ip": "192.168.1.10",
+  "stream": {
+    "video_bitrate":      10000,
+    "video_width":        1920,
+    "video_height":       1080,
+    "video_framerate":    60,
+    "audio_bitrate":      128,
+    "audio_channels":     1
+  },
+  "rist": {
+    "buffer_ms": 20
+  },
+  "camera_port": 2023,
+  "client_cert":  "client.pem",
+  "reconnect_delay_s": 0.5,
+  "heartbeat_interval_s": 5
+}
